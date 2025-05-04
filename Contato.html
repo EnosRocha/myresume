@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+      <h1>Portfólio Pessoal</h1>
+      <nav>
+        <ul>
+          <li><a href="Index.html">Sobre mim</a></li>
+          <li><a href="Formacao.html">Formação</a></li>
+          <li><a href="Portfolio.html">Portfólio</a></li>
+          <li><a href="Contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <img src="Fotos/profile.png" alt="Imagem de perfil" />
+    <div><h2>Contato:</h2></div>
+    <form class="formulario">
+      <!-- Instruções para o usuário -->
+      <h4>
+        Deixe seu nome, e-mail e mensagem, que logo entrarei em contato com
+        você!
+      </h4>
+
+      <!-- Campo para o nome do usuário -->
+      <label for="nome">Nome:</label><br />
+      <input type="text" id="nome" name="nome" required /> <br /><br />
+
+      <!-- Campo para o e-mail do usuário -->
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /> <br /><br />
+
+      <!-- Campo para a mensagem do usuário -->
+      <label for="mensagem">Mensagem:</label><br />
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+      <br /><br />
+
+      <!-- Botão de envio do formulário -->
+      <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+      <p>&copy; 2025 Enos Rocha</p>
+    </footer>
+  </body>
+</html>
